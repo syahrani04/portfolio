@@ -1,0 +1,16 @@
+CARA MENGEDIT PORTOFOLIO
+
+Isi folder:
+  index.html  = kerangka halaman (biasanya tidak perlu diubah)
+  style.css   = warna & tampilan (ubah warna di bagian :root paling atas)
+  data.js     = SEMUA ISI: nama, skill, proyek, pengalaman, kontak
+  script.js   = penghubung data ke halaman (tidak perlu diubah)
+
+Langkah:
+  1. Ekstrak ZIP, lalu buka data.js dengan Notepad atau VS Code.
+  2. Ganti teks di dalam tanda kutip dengan datamu. Simpan.
+  3. Klik dua kali index.html untuk melihat hasilnya di browser.
+  4. Foto: taruh foto.jpg di folder ini, lalu isi  foto: "foto.jpg"  di data.js.
+  5. Tambah proyek: salin satu blok { judul: ..., link: "#" } lalu beri koma.
+
+Ingin online gratis? Upload folder ini ke Netlify Drop, GitHub Pages, atau Vercel.

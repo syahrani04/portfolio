@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portofolio Syahrani</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="logo" href="#top" id="logo"></a>
+  <nav aria-label="Navigasi"><a href="#tentang">Tentang</a><a href="#keahlian">Keahlian</a><a href="#proyek">Proyek Akademik</a><a href="#pengalaman">Pengalaman</a><a href="#kontak">Kontak</a></nav>
+  <button class="theme" id="theme" type="button" aria-label="Ganti tema">Tema</button>
+</div></header>
+
+<main class="wrap" id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="hi">Hai, Perkenalkan saya</p>
+      <h1 id="h-nama"></h1>
+      <p class="role" id="h-peran"></p>
+      <p class="lead" id="h-ringkas"></p>
+      <div class="btns"><a class="btn primary" href="#proyek">Lihat proyek</a><a class="btn ghost" href="#kontak">Hubungi saya</a></div>
+    </div>
+    <div class="hero-card">
+      <div class="avatar" id="avatar"></div>
+    </div>
+  </section>
+
+  <section id="tentang"><h2>Tentang saya</h2><p id="tentang-teks" class="about"></p></section>
+  <section id="keahlian"><h2>Keahlian</h2><div class="skills" id="keahlian-list"></div></section>
+  <section id="proyek"><h2>Proyek Akademik</h2><div class="filters" id="filters" role="group" aria-label="Filter proyek"></div><div class="grid" id="grid"></div></section>
+  <section id="pengalaman"><h2>Pengalaman</h2><ul class="timeline" id="timeline"></ul></section>
+  <section id="kontak" class="contact"><h2>Mari Berkomunikasi!</h2><p>Saya terbuka untuk peluang kerja atau magang dan proyek freelance.</p><div class="btns">
+  <a class="btn primary" id="c-wa" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="btn ghost" id="c-email"></a>
+  <a class="btn ghost" id="c-gh" target="_blank" rel="noopener">GitHub</a>
+  <a class="btn ghost" id="c-in" target="_blank" rel="noopener">LinkedIn</a>
+</div>
+</main>
+<footer><div class="wrap" id="footer"></div></footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
